@@ -17,7 +17,7 @@ body{
 .container{
     
     height: 600PX;
-    width: 1100px;
+    width: 1000vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,14 +60,15 @@ body{
 
 }
 
-.box{
+.box1 p{
     font-family: 'Montserrat', sans-serif;
-    color: hsl(212, 21%, 14%);
+    color: hsl(228, 12%, 48%);
 
 }
 
-.box2{
+.box2 h1{
     font-family: 'Fraunces', serif;
+    
 
 }
 
@@ -91,7 +92,7 @@ body{
     justify-content: center;
     align-items: center;
     color: hsl(0, 0%, 100%);
-    border-radius: 4px;
+    border-radius: 15px;
     height: 40px;
 }
 
@@ -99,6 +100,11 @@ body{
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
 
+}
+
+.box42{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
 }
 
 .box52{
