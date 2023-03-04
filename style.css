@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    
+    height: 600PX;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    box-shadow: hsl(0, 0%, 100%)  60px 60px 60px 60px;
+    
+}
+
+.card{
+    
+    height: 400px;
+    width: 600px;
+    display: flex;
+    border-radius: 1rem;
+    background-color: hsl(228, 12%, 48%);
+}
+
+.card-left{
+    width: 50%;
+    
+    background-image: url('images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-right{
+    width: 50%;
+    
+    background-color:  hsl(0, 0%, 100%);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.box{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(212, 21%, 14%);
+
+}
+
+.box2{
+    font-family: 'Fraunces', serif;
+
+}
+
+.box3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(212, 21%, 14%);
+
+}
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.box5{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 4px;
+    height: 40px;
+}
+
+.box41{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+
+}
+
+.box52{
+    margin-left: 10px;
+    width: 100px;
+
+}
+
+
